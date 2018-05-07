@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class CcamangdonApplication {
-	// test
+	// test111111111
 	public static void main(String[] args) {
 		SpringApplication.run(CcamangdonApplication.class, args);
 	}
