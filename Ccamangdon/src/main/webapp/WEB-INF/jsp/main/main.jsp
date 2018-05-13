@@ -10,14 +10,10 @@
 
 <title>까망돈</title>
 
-<!-- Bootstrap core CSS -->
 <link href="/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Custom fonts for this template -->
 <link href="/resources/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-<!-- Custom styles for this template -->
 <link href="/resources/css/main.css" rel="stylesheet">
+<link href="/resources/vendor/sly/css/sly-main.css" rel="stylesheet">
 
 </head>
 <body>
@@ -49,14 +45,58 @@
     </nav>
 
     <!-- header -->
-    <header class="masthead" id="top">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-heading text-uppercase">고기로 표현할 수 있는<br><span class="color-red">가장 완벽한 맛</span>을 기대하세요!</div>
-          <div>정직하고 신선한 재료만을 사용하며<br>고객님을 위해 늘 최선을 다하는 서비스를 제공하고있습니다.</div>
+<!--     <header class="masthead" id="top"> -->
+<!--       <div class="container"> -->
+<!--         <div class="intro-text"> -->
+<!--           <div class="intro-heading text-uppercase">고기로 표현할 수 있는<br><span class="color-red">가장 완벽한 맛</span>을 기대하세요!</div> -->
+<!--           <div>정직하고 신선한 재료만을 사용하며<br>고객님을 위해 늘 최선을 다하는 서비스를 제공하고있습니다.</div> -->
+<!--         </div> -->
+<!--       </div> -->
+<!--     </header> -->
+
+<!--     <div class="container container-full"> -->
+    <div id="top" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#top" data-slide-to="0" class="active"></li>
+        <li data-target="#top" data-slide-to="1"></li>
+        <li data-target="#top" data-slide-to="2"></li>
+      </ul>
+    
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/resources/images/slider/slider01.png" alt="" width="100%">
+          <div class="carousel-caption align-items-center justify-content-center">
+            <h3 class="text-shadow">최선은 <span class="text-red">NO!</span> 최고일 뿐</h3>
+            <p class="text-shadow">프리미엄 흑돼지 전문점 '까망돈'</p>
+          </div>
         </div>
-      </div>
-    </header>
+        <div class="carousel-item">
+          <img src="/resources/images/slider/slider02.png" alt="" width="100%">
+          <div class="carousel-caption">
+            <h3 class="text-shadow"><span class="text-red">숯불화로</span>와 <span class="text-black text-border-white">흑돼지</span>의 <span class="text-red">'정점'</span>을 찍다!</h3>
+            <p class="text-shadow">여기에 들어갈 말</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/resources/images/slider/slider03.png" alt="" width="100%">
+          <div class="carousel-caption">
+            <h3 class="text-shadow">젊음! 열정! 고집!</h3>
+            <p class="text-shadow">까망돈은 다른 삶은 사는 3명의 청년들이 불철주야 고민하여 우리 부모님, 우리 아이에게 최고의 고기를 대접하는 마음으로 만든 브랜드 입니다</p>
+          </div>
+        </div>
+    
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#top" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#top" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+    </div>
+    </div>
 
     <!-- about -->
     <section id="about">
@@ -97,47 +137,52 @@
             <h3 class="section-subheading text-muted">저희 업체 대표메뉴 입니다.<br>고객분들께서 맛있게 드실수 있도록 더욱 노력하겠습니다.</h3>
           </div>
         </div>
+        <!-- 구이메뉴 -->
         <div class="row">
-          <div class="col-md-4 col-sm-6 menu-item">
-            <a class="menu-link" data-toggle="modal" href="#portfolioModal1">
-              <div class="menu-hover">
-                <div class="menu-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
+          <div class="col-sm-12 text-center">
+            <h6>구이메뉴</h6>
+          </div>
+          <div class="panel panel-default panel-menu" id="menu1SliderPanel">
+            <div class="panel-body">
+              <div class="frame" id="menu1SliderArea">
+                <ul class="clearfix" id="menu1SliderItemArea">
+                  <li style="background-image: url('/resources/images/menu/menu01.png'); background-size: 100%;">
+				  </li>
+				  <li style="background-image: url('/resources/images/menu/menu02.png'); background-size: 100%;">
+				  </li>
+				  <li style="background-image: url('/resources/images/menu/menu03.png'); background-size: 100%;">
+				  </li>
+				  <li style="background-image: url('/resources/images/menu/menu04.png'); background-size: 100%;">
+				  </li>
+				  <li style="background-image: url('/resources/images/menu/menu05.png'); background-size: 100%;">
+				  </li>
+                </ul>
               </div>
-              <img class="img-fluid" src="/resources/images/menu/01-thumbnail.jpg" alt="">
-            </a>
-            <div class="menu-caption">
-              <h4>구이메뉴</h4>
-              <p class="text-muted">구워먹는 메뉴 입니다.</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 menu-item">
-            <a class="menu-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="menu-hover">
-                <div class="menu-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="/resources/images/menu/02-thumbnail.jpg" alt="">
-            </a>
-            <div class="menu-caption">
-              <h4>식사메뉴</h4>
-              <p class="text-muted">배고플때 먹는 메뉴 입니다.</p>
-            </div>
+        </div>
+        <br>
+        <!-- 식사메뉴 -->
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h6>식사메뉴</h6>
           </div>
-          <div class="col-md-4 col-sm-6 menu-item">
-            <a class="menu-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="menu-hover">
-                <div class="menu-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
+          <div class="panel panel-default panel-menu" id="menu2SliderPanel">
+            <div class="panel-body">
+              <div class="frame" id="menu2SliderArea">
+                <ul class="clearfix" id="menu2SliderItemArea">
+                  <li style="background-image: url('/resources/images/menu/menu06.png'); background-size: 100%;">
+				  </li>
+				  <li style="background-image: url('/resources/images/menu/menu07.png'); background-size: 100%;">
+				  </li>
+				  <li style="background-image: url('/resources/images/menu/menu08.png'); background-size: 100%;">
+				  </li>
+				  <li style="background-image: url('/resources/images/menu/menu09.png'); background-size: 100%;">
+				  </li>
+				  <li style="background-image: url('/resources/images/menu/menu10.png'); background-size: 100%;">
+				  </li>
+                </ul>
               </div>
-              <img class="img-fluid" src="/resources/images/menu/03-thumbnail.jpg" alt="">
-            </a>
-            <div class="menu-caption">
-              <h4>후식메뉴</h4>
-              <p class="text-muted">후식엔 국수</p>
             </div>
           </div>
         </div>
@@ -259,8 +304,7 @@
       </div>
     </footer>
 
-    <!-- Menu Modals -->
-    <!-- Modal 1 -->
+    <!-- Sample Modal 1 -->
     <div class="menu-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -276,80 +320,12 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Project Name</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="/resources/images/menu/01-full.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="/resources/images/menu/menu01.png" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Threads</li>
                     <li>Category: Illustration</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 2 -->
-    <div class="menu-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="/resources/images/menu/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 3 -->
-    <div class="menu-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="/resources/images/menu/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -389,7 +365,7 @@
                 </div>
                 <div class="form-group">
                   <label for="phone">개설 희망지역</label>
-                  <input type="text" class="form-control" id="phone" placeholder="예) 서울시, 인천시, 전주시, 고양시...">
+                  <input type="text" class="form-control" id="phone" placeholder="예) 서울, 인천, 전주, 고양...">
                 </div>
               </div>
             </div>
@@ -408,9 +384,50 @@
 
     <!-- Plugin JavaScript -->
     <script src="/resources/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/resources/vendor/sly/js/sly.min.js"></script>
 
-    <!-- Custom scripts for this template -->
+    <!-- Custom scripts for this page -->
     <script src="/resources/js/main.js"></script>
-
+    
+    <script type="text/javascript">
+    
+    (function($) {
+      $(document).ready(function() {
+        slyComponent.create('#menu1SliderArea');
+        slyComponent.create('#menu2SliderArea');
+      });
+      
+      var slyComponent = {
+        create: function(elementId) {
+          var $frame  = $(elementId);
+          var $slidee = $frame.children('ul').eq(0);
+          var $wrap   = $frame.parent();
+          // Call Sly on frame
+          $frame.sly({
+            horizontal: 1,
+            itemNav: 'basic',
+            smart: 1,
+            activateOn: 'click',
+            mouseDragging: 1,
+            touchDragging: 1,
+            releaseSwing: 1,
+            startAt: 0,
+            scrollBar: $wrap.find('.scrollbar'),
+            scrollBy: 1,
+            pagesBar: $wrap.find('.pages'),
+            activatePageOn: 'click',
+            speed: 1,
+            elasticBounds: 1,
+            easing: 'easeOutExpo',
+            dragHandle: 1,
+            dynamicHandle: 1,
+            clickBar: 1
+          });
+        }
+      }
+      
+    })($);
+    
+    </script>
 </body>
 </html>
