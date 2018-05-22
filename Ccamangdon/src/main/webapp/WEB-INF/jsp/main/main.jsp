@@ -137,51 +137,94 @@
             <h3 class="section-subheading text-muted">저희 업체 대표메뉴 입니다.<br>고객분들께서 맛있게 드실수 있도록 더욱 노력하겠습니다.</h3>
           </div>
         </div>
-        <!-- 구이메뉴 -->
         <div class="row">
-          <div class="col-sm-12 text-center">
-            <h6>구이메뉴</h6>
-          </div>
-          <div class="panel panel-default panel-menu" id="menu1SliderPanel">
-            <div class="panel-body">
-              <div class="frame" id="menu1SliderArea">
-                <ul class="clearfix" id="menu1SliderItemArea">
-                  <li style="background-image: url('/resources/images/menu/menu01.png'); background-size: 100%;">
-				  </li>
-				  <li style="background-image: url('/resources/images/menu/menu02.png'); background-size: 100%;">
-				  </li>
-				  <li style="background-image: url('/resources/images/menu/menu03.png'); background-size: 100%;">
-				  </li>
-				  <li style="background-image: url('/resources/images/menu/menu04.png'); background-size: 100%;">
-				  </li>
-				  <li style="background-image: url('/resources/images/menu/menu05.png'); background-size: 100%;">
-				  </li>
-                </ul>
+          <div class="col-lg-12">
+            <div id="menuAccordione" role="tablist" aria-multiselectable="true">
+            
+              <!-- 구이메뉴 -->
+              <div class="card">
+                <a data-toggle="collapse" data-parent="#menuAccordione" href="#menuCollapse1" aria-expanded="true" aria-controls="menuCollapse1">
+                  <div class="card-header card-menu" role="tab" id="menuHeading1">
+                    <h5 class="mb-0">구이메뉴</h5>
+                  </div>
+                </a>
+                <div id="menuCollapse1" class="collapse show" role="tabpanel" aria-labelledby="menuHeading1">
+                  <div class="card-block">
+                    <div class="panel panel-default panel-menu" id="menu1SliderPanel">
+                      <div class="panel-body">
+                        <div class="frame" id="menu1SliderArea">
+                          <ul class="clearfix" id="menu1SliderItemArea">
+                            <li style="background-image: url('/resources/images/menu/menu01.png'); background-size: 100%;">
+<!--                               <br><br><br><br><br><br><br><span class="menu-title">[버크셔] 수제 뼈갈비</span> -->
+                            </li>
+                            <li style="background-image: url('/resources/images/menu/menu02.png'); background-size: 100%;">
+<!--                               <br><br><br><br><br><br><br><span class="menu-title">[버크셔] 삼겹살</span> -->
+                            </li>
+                            <li style="background-image: url('/resources/images/menu/menu03.png'); background-size: 100%;">
+<!--                               <br><br><br><br><br><br><br><span class="menu-title">[이베리코] 목살</span> -->
+                            </li>
+                            <li style="background-image: url('/resources/images/menu/menu04.png'); background-size: 100%;">
+<!--                               <br><br><br><br><br><br><br><span class="menu-title">[이베리코] 황제살</span> -->
+                            </li>
+                            <li style="background-image: url('/resources/images/menu/menu05.png'); background-size: 100%;">
+<!--                               <br><br><br><br><br><br><br><span class="menu-title">[이베리코] 항정살</span> -->
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <br>
-        <!-- 식사메뉴 -->
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <h6>식사메뉴</h6>
-          </div>
-          <div class="panel panel-default panel-menu" id="menu2SliderPanel">
-            <div class="panel-body">
-              <div class="frame" id="menu2SliderArea">
-                <ul class="clearfix" id="menu2SliderItemArea">
-                  <li style="background-image: url('/resources/images/menu/menu06.png'); background-size: 100%;">
-				  </li>
-				  <li style="background-image: url('/resources/images/menu/menu07.png'); background-size: 100%;">
-				  </li>
-				  <li style="background-image: url('/resources/images/menu/menu08.png'); background-size: 100%;">
-				  </li>
-				  <li style="background-image: url('/resources/images/menu/menu09.png'); background-size: 100%;">
-				  </li>
-				  <li style="background-image: url('/resources/images/menu/menu10.png'); background-size: 100%;">
-				  </li>
-                </ul>
+            
+            <!-- 식사메뉴 -->
+            <div class="card">
+              <a data-toggle="collapse" data-parent="#menuAccordione" href="#menuCollapse2" aria-expanded="true" aria-controls="menuCollapse2">
+                <div class="card-header card-menu" role="tab" id="menuHeading2">
+                  <h5 class="mb-0">식사메뉴</h5>
+                </div>
+              </a>
+              <div id="menuCollapse2" class="collapse show" role="tabpanel" aria-labelledby="menuHeading2">
+                <div class="card-block">
+                  <div class="panel panel-default panel-menu" id="menu2SliderPanel">
+                    <div class="panel-body">
+                      <div class="frame" id="menu2SliderArea">
+                        <ul class="clearfix" id="menu2SliderItemArea">
+                          <li style="background-image: url('/resources/images/menu/menu06.png'); background-size: 100%;">
+<!--                             <br><br><br><br><br><br><br><span class="menu-title">구이 & 쌈 정식</span> -->
+                          </li>
+                          <li style="background-image: url('/resources/images/menu/menu07.png'); background-size: 100%;">
+<!--                             <br><br><br><br><br><br><br><span class="menu-title">김치찌개</span> -->
+                          </li>
+                          <li style="background-image: url('/resources/images/menu/menu08.png'); background-size: 100%;">
+<!--                             <br><br><br><br><br><br><br><span class="menu-title">두루치기</span> -->
+                          </li>
+                          <li style="background-image: url('/resources/images/menu/menu09.png'); background-size: 100%;">
+<!--                             <br><br><br><br><br><br><br><span class="menu-title">육회 비빔밥</span> -->
+                          </li>
+                          <li style="background-image: url('/resources/images/menu/menu10.png'); background-size: 100%;">
+<!--                             <br><br><br><br><br><br><br><span class="menu-title">흑돼지 옛날 불고기</span> -->
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- 후식메뉴 -->
+            <div class="card">
+              <a data-toggle="collapse" data-parent="#menuAccordione" href="#menuCollapse3" aria-expanded="true" aria-controls="menuCollapse3">
+                <div class="card-header card-menu" role="tab" id="menuHeading3">
+                  <h5 class="mb-0">후식메뉴</h5>
+                </div>
+              </a>
+              <div id="menuCollapse3" class="collapse show" role="tabpanel" aria-labelledby="menuHeading3">
+                <div class="card-block">
+                  준비중입니다
+                </div>
               </div>
             </div>
           </div>
@@ -195,23 +238,112 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">매장</h2>
-            <h3 class="section-subheading text-muted">매장 정보 입니다.</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12 text-center">
-            [지도 들어갈 부분]
+           <select class="form-control">
+             <option selected="selected">행신본점</option>
+             <option>전주점</option>
+           </select>
           </div>
         </div>
+        <div class="row" id="storeMapArea">
+          <div id="storeMap"></div>
+        </div>
         <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <p class="large text-muted">매장 목록</p>
+          <div class="col-lg-12">
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td class="store-info-col">매장명</td>
+                  <td>행신본점</td>
+                </tr>
+                <tr>
+                  <td class="store-info-col">매장주소</td>
+                  <td>경기도 고양시 덕양구 충경로 38</td>
+                </tr>
+                <tr>
+                  <td class="store-info-col">전화번호</td>
+                  <td>031-970-1157</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
     </section>
 
     <!-- franchising -->
+<!--     <section class="bg-light" id="franchising"> -->
+<!--       <div class="container"> -->
+<!--         <div class="row"> -->
+<!--           <div class="col-lg-12 text-center"> -->
+<!--             <h2 class="section-heading text-uppercase">프랜차이즈</h2> -->
+<!--             <h3 class="section-subheading text-muted">프랜차이즈 창업도 쉽지는 않습니다.<br>개인 창업 못지않게 깊이 알아보시고 많이 공부하셔야 합니다.<br>충분히 살펴보시고 문 두들겨 주십시오.<br>성심 성의껏 다가가겠습니다.</h3> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--         <div class="row"> -->
+<!--           <div class="col-md-4 col-sm-6 franchising-item"> -->
+<!--             <a class="franchising-link" data-toggle="modal" href="#franchisingModal1"> -->
+<!--               <div class="franchising-hover"> -->
+<!--                 <div class="franchising-hover-content"> -->
+<!--                   <i class="fa fa-plus fa-3x"></i> -->
+<!--                 </div> -->
+<!--               </div> -->
+<!--               <img class="img-fluid" src="/resources/images/menu/menu01.png" alt=""> -->
+<!--             </a> -->
+<!--             <div class="franchising-caption"> -->
+<!--               <h4>Threads</h4> -->
+<!--               <p class="text-muted">Illustration</p> -->
+<!--             </div> -->
+<!--           </div> -->
+<!--           <div class="col-md-4 col-sm-6 franchising-item"> -->
+<!--             <a class="franchising-link" data-toggle="modal" href="#franchisingModal2"> -->
+<!--               <div class="franchising-hover"> -->
+<!--                 <div class="franchising-hover-content"> -->
+<!--                   <i class="fa fa-plus fa-3x"></i> -->
+<!--                 </div> -->
+<!--               </div> -->
+<!--               <img class="img-fluid" src="/resources/images/menu/menu02.png" alt=""> -->
+<!--             </a> -->
+<!--             <div class="franchising-caption"> -->
+<!--               <h4>Explore</h4> -->
+<!--               <p class="text-muted">Graphic Design</p> -->
+<!--             </div> -->
+<!--           </div> -->
+<!--           <div class="col-md-4 col-sm-6 franchising-item"> -->
+<!--             <a class="franchising-link" data-toggle="modal" href="#franchisingModal1"> -->
+<!--               <div class="franchising-hover"> -->
+<!--                 <div class="franchising-hover-content"> -->
+<!--                   <i class="fa fa-plus fa-3x"></i> -->
+<!--                 </div> -->
+<!--               </div> -->
+<!--               <img class="img-fluid" src="/resources/images/menu/menu03.png" alt=""> -->
+<!--             </a> -->
+<!--             <div class="franchising-caption"> -->
+<!--               <h4>333333</h4> -->
+<!--               <p class="text-muted">333</p> -->
+<!--             </div> -->
+<!--           </div> -->
+<!--           <div class="col-md-4 col-sm-6 franchising-item"> -->
+<!--             <a class="franchising-link" data-toggle="modal" href="#franchisingModal2"> -->
+<!--               <div class="franchising-hover"> -->
+<!--                 <div class="franchising-hover-content"> -->
+<!--                   <i class="fa fa-plus fa-3x"></i> -->
+<!--                 </div> -->
+<!--               </div> -->
+<!--               <img class="img-fluid" src="/resources/images/menu/menu04.png" alt=""> -->
+<!--             </a> -->
+<!--             <div class="franchising-caption"> -->
+<!--               <h4>Explore44</h4> -->
+<!--               <p class="text-muted">G44444</p> -->
+<!--             </div> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--       </div> -->
+<!--     </section> -->
+    
     <section class="bg-light" id="franchising">
       <div class="container">
         <div class="row">
@@ -222,69 +354,114 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="/resources/images/about/1.jpg" alt="">
+            <div id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="card">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div class="card-header" role="tab" id="headingOne">
+                  <h5 class="mb-0">
+                      창업경쟁력
+                  </h5>
                 </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>1. 프랜차이즈 문의</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">&middot; 인터넷 또는 전화 접수</p>
-                    <p class="text-muted">&middot; 희망 상권 파악</p>
-                    <a data-toggle="modal" href="#applyingModal"><button type="button" class="btn btn-primary">문의하기</button></a>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="/resources/images/about/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2. 본사상담(내방)</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">&middot; 상담 일정 조율 및 확정 후 본사 내방 상담</p>
-                    <p class="text-muted">&middot; 가맹점주님 매장 운영 가능성 판단</p>
+                </a>
+                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="card-block">
+                    <h5>까망돈 흑돼지, 차원이 다른 프리미엄 흑돼지 맛에 놀라다!</h5>
+                    <span class="text-red">더 맛있다</span><br>
+                    청정지역 방목환경에서 자란 ‘이베리코 흑돼지’와 순종100% 토종 ‘버크셔 흑돼지’는 지금까지 접한 돈육과는 맛이 차원이 다릅니다. 육질 자체에 머금고 있는 육즙과 그 고소함은 상상초월 입니다. 같은 돼지라도 ‘다르다’ 느끼실 수 있습니다. 또한 고기의 참 맛은 다른 곳에서 있지 않습니다. 정말 좋은 품질의 돈육과 참숯으로 구워야 진정한 맛을 느낄 수 있습니다
                   </div>
                 </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="/resources/images/about/3.jpg" alt="">
+              </div>
+              <div class="card">
+                <div class="card-header" role="tab" id="headingTwo">
+                  <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Collapsible Group Item #2
+                    </a>
+                  </h5>
                 </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>3. 상권분석 및 평가</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">&middot; 의뢰상권, 입지 신규매장 개설 가능 여부 결정</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="/resources/images/about/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>4. 가맹계약</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">&middot; 가맹계약 체결</p>
-                    <p class="text-muted">&middot; 가맹금 예치 및 개설견적서 계약금 납부</p>
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="card-block">
+                    <img src="/resources/images/franchising_01.png" width="100%">
                   </div>
                 </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Grand<br>Open!</h4>
+              </div>
+              <div class="card">
+                <div class="card-header" role="tab" id="headingThree">
+                  <h5 class="mb-0">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Collapsible Group Item #3
+                    </a>
+                  </h5>
                 </div>
-              </li>
-            </ul>
+                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="card-block">
+                    <ul class="timeline">
+                  <li>
+                    <div class="timeline-image">
+                      <img class="rounded-circle img-fluid" src="/resources/images/about/1.jpg" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h5>1. 프랜차이즈 문의</h5>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">&middot; 인터넷 또는 전화 접수</p>
+                        <p class="text-muted">&middot; 희망 상권 파악</p>
+                        <a data-toggle="modal" href="#applyingModal"><button type="button" class="btn btn-primary">문의하기</button></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-image">
+                      <img class="rounded-circle img-fluid" src="/resources/images/about/2.jpg" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h5>2. 본사상담(내방)</h5>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">&middot; 상담 일정 조율 및 확정 후 본사 내방 상담</p>
+                        <p class="text-muted">&middot; 가맹점주님 매장 운영 가능성 판단</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-image">
+                      <img class="rounded-circle img-fluid" src="/resources/images/about/3.jpg" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h5>3. 상권분석 및 평가</h5>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">&middot; 의뢰상권, 입지 신규매장 개설 가능 여부 결정</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-image">
+                      <img class="rounded-circle img-fluid" src="/resources/images/about/4.jpg" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h5>4. 가맹계약</h5>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">&middot; 가맹계약 체결</p>
+                        <p class="text-muted">&middot; 가맹금 예치 및 개설견적서 계약금 납부</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-image">
+                      <h4>Grand<br>Open!</h4>
+                    </div>
+                  </li>
+                </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -296,7 +473,7 @@
         <div class="row">
           <div class="col-md-12">
             <span class="copyright">
-              경기도 고양시 덕양구 충경로 38 / 대표전화: 031-970-1157<br>
+              경기도 고양시 덕양구 충경로 38 / 031-970-1157<br>
               <img alt="까망돈" src="/resources/images/logos/sub-logo.png" width="100" height="33"> Copyright &copy; CCAMANGDON
             </span>
           </div>
@@ -304,14 +481,14 @@
       </div>
     </footer>
 
-    <!-- Sample Modal 1 -->
-    <div class="menu-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- franchising Modal 1 -->
+    <div class="franchising-modal modal fade" id="franchisingModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
           <div class="container">
             <div class="row">
@@ -333,6 +510,91 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- franchising Modal 2 -->
+    <div class="franchising-modal modal fade" id="franchisingModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <ul class="timeline">
+                  <li>
+                    <div class="timeline-image">
+                      <img class="rounded-circle img-fluid" src="/resources/images/about/1.jpg" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h5>1. 프랜차이즈 문의</h5>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">&middot; 인터넷 또는 전화 접수</p>
+                        <p class="text-muted">&middot; 희망 상권 파악</p>
+                        <a data-toggle="modal" href="#applyingModal"><button type="button" class="btn btn-primary">문의하기</button></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-image">
+                      <img class="rounded-circle img-fluid" src="/resources/images/about/2.jpg" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h5>2. 본사상담(내방)</h5>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">&middot; 상담 일정 조율 및 확정 후 본사 내방 상담</p>
+                        <p class="text-muted">&middot; 가맹점주님 매장 운영 가능성 판단</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-image">
+                      <img class="rounded-circle img-fluid" src="/resources/images/about/3.jpg" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h5>3. 상권분석 및 평가</h5>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">&middot; 의뢰상권, 입지 신규매장 개설 가능 여부 결정</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-image">
+                      <img class="rounded-circle img-fluid" src="/resources/images/about/4.jpg" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h5>4. 가맹계약</h5>
+                      </div>
+                      <div class="timeline-body">
+                        <p class="text-muted">&middot; 가맹계약 체결</p>
+                        <p class="text-muted">&middot; 가맹금 예치 및 개설견적서 계약금 납부</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-image">
+                      <h4>Grand<br>Open!</h4>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-bottom">
+            <p></p>
           </div>
         </div>
       </div>
@@ -377,7 +639,7 @@
         </div>
       </div>
     </div>
-	
+    
     <!-- Bootstrap core JavaScript -->
     <script src="/resources/vendor/jquery/jquery.min.js"></script>
     <script src="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -395,7 +657,54 @@
       $(document).ready(function() {
         slyComponent.create('#menu1SliderArea');
         slyComponent.create('#menu2SliderArea');
+        
+        setMap();
+        
+        $("#menuCollapse2").collapse('hide');
+        $("#menuCollapse3").collapse('hide');
       });
+      
+      var map, marker;
+      var HOME_PATH = window.HOME_PATH || '.';
+      var initLat = 37.6152554;
+      var initLng = 126.8337424;
+      
+      var setMap = function() {
+        map = new naver.maps.Map('storeMap', {
+          center: new naver.maps.LatLng(initLat, initLng),
+          zoom: 11,
+          zoomControl: true,
+          zoomControlOptions: {
+            position: naver.maps.Position.TOP_RIGHT
+          }
+        });
+        
+        marker = new naver.maps.Marker({
+          position: new naver.maps.LatLng(initLat, initLng),
+          map: map
+        });
+        
+        var contentString = [
+                '<div class="iw_inner">',
+                '   <br>',
+                '   <p>&nbsp;&nbsp;까망돈 - 행신본점&nbsp;&nbsp;</p>',
+                '</div>'
+            ].join('');
+        
+        var infowindow = new naver.maps.InfoWindow({
+          content: contentString
+        });
+        
+        naver.maps.Event.addListener(marker, "click", function(e) {
+          if (infowindow.getMap()) {
+            infowindow.close();
+          } else {
+            infowindow.open(map, marker);
+          }
+        });
+
+       	infowindow.open(map, marker);
+      };
       
       var slyComponent = {
         create: function(elementId) {
@@ -429,5 +738,8 @@
     })($);
     
     </script>
+    
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=11vWZoNDqU2DwEsypMju&submodules=geocoder"></script>
+    
 </body>
 </html>
