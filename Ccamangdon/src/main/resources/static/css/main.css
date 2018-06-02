@@ -3,9 +3,13 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+@CHARSET "UTF-8";
+@font-face { font-family: 'Bmjua'; src: url(/resources/fonts/BMJUA_ttf.ttf) format('truetype'); }
+@font-face { font-family: 'Bmyeonsung'; src: url(/resources/fonts/BMYEONSUNG_ttf.ttf) format('truetype'); }
+
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Bmjua', 'Bmyeonsung', 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -39,7 +43,8 @@ section {
 }
 
 section h2.section-heading {
-  font-size: 40px;
+  font-family: 'Bmyeonsung';
+  font-size: 45px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -50,7 +55,7 @@ section h3.section-subheading {
   font-style: italic;
   margin-bottom: 60px;
   text-transform: none;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Bmjua', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -722,7 +727,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 #applyingModal {
-  padding-top: 10%;
+/*   padding-top: 10%; */
   padding-right: 0! important;
 }
 
@@ -762,23 +767,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /*   -webkit-text-shadow: 0 0 2px #fff; */
 }
 
-.carousel-caption {
-  top: 40%;
-  
-}
-@media (min-width: 768px) {
-  .carousel-caption {
-    top: 43%;
-  }
-}
-
 .franchising-modal .modal-content .modal-header {
   border-bottom: 0px;
   padding-bottom: 30px;
 }
 
 #storeMapArea {
-  padding: 20 10 20 10;
+  padding: 20 10 10 10;
 }
 
 #storeMap {
@@ -796,9 +791,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #aaa;
 }
 
+.card-franchising {
+  background-color: #000;
+  color: #fff;
+}
+.card-franchising > h5 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Bmjua';
+}
 .card > a {
-  color: black;
-  text-decoration:none
+  text-decoration: none;
 }
 
 .card-block {
@@ -807,5 +810,78 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .card-menu {
   background-color: #663333;
-  color: #fff
+  color: #fff;
+}
+.card-menu > h5 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Bmjua';
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.font-style-italic {
+  font-style: italic;
+}
+.font-default {
+  font-family: 'Droid Serif';
+  font-size: 0.9em;
+}
+
+.font-size-15 { font-size: 1.5em; }
+.font-size-20 { font-size: 2.0em; }
+.font-bold { font-weight: bold; }
+
+.font-size-17 { font-size: 1.7em; }
+.font-size-30 { font-size: 3.0em; }
+
+.carousel-caption {
+  font-family: 'Bmyeonsung';
+}
+.carousel-caption1 { top: 33%; }
+.carousel-caption2 { top: 50%; }
+.carousel-caption3 { top: 30%; }
+@media (max-width: 700px) {
+  .carousel-caption1 { top: 25%; }
+  .carousel-caption3 { top: 27%; }
+  .font-size-17 { font-size: 1.3em; }
+  .font-size-30 { font-size: 1.7em; }
+  .font-size-15 { font-size: 1.3em; }
+  .font-size-20 { font-size: 1.7em; }
+}
+@media (max-width: 768px) {
+  .carousel-caption2 { top: 45%; }
+  .font-size-17 { font-size: 1.3em; }
+  .font-size-30 { font-size: 1.7em; }
+}
+
+#franchiseInquiryModalBtn {
+  padding: 10 0 10 0;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Bmjua';
+}
+
+.iw_inner {
+  font-family: 'Droid Serif';
+  font-style: italic;
+}
+
+#agreementInfo {
+  width: 100%;
+  padding: 5px;
+  font-family: 'Droid Serif';
+  font-size: 0.7em;
+  background-color: #f7f7f7;
+}
+
+.interior-img {
+  max-height: 290px;
 }
