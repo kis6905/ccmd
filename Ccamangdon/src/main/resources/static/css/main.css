@@ -883,5 +883,5 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .interior-img {
-  max-height: 290px;
+  min-height: 100%;
 }
