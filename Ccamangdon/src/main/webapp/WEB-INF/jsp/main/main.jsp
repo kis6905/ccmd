@@ -3,6 +3,8 @@
 <html>
 <head>
 
+<% String revision = "20180616_01"; %>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="ccamangdon">
@@ -10,10 +12,10 @@
 
 <title>까망돈</title>
 
-<link href="/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="/resources/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="/resources/css/main.css" rel="stylesheet">
-<link href="/resources/vendor/sly/css/sly-main.css" rel="stylesheet">
+<link href="/resources/vendor/bootstrap/css/bootstrap.min.css?rev=<%=revision%>" rel="stylesheet">
+<link href="/resources/vendor/font-awesome/css/font-awesome.min.css?rev=<%=revision%>" rel="stylesheet" type="text/css">
+<link href="/resources/css/main.css?rev=<%=revision%>" rel="stylesheet">
+<link href="/resources/vendor/sly/css/sly-main.css?rev=<%=revision%>" rel="stylesheet">
 
 </head>
 <body>
@@ -232,20 +234,32 @@
                       <div class="panel-body">
                         <div class="frame" id="menu1SliderArea">
                           <ul class="clearfix" id="menu1SliderItemArea">
-                            <li style="background-image: url('/resources/images/menu/menu01.png'); background-size: 100%;">
-<!--                               <br><br><br><br><br><br><br><span class="menu-title">[버크셔] 수제 뼈갈비</span> -->
+                            <li style="background-image: url('/resources/images/menu/menu01_01.png'); background-size: 100%;">
+                              <br><br><br><br><br><br><br><span class="menu-title">까망 <span class="text-red">모둠</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu02.png'); background-size: 100%;">
-<!--                               <br><br><br><br><br><br><br><span class="menu-title">[버크셔] 삼겹살</span> -->
+                            <li style="background-image: url('/resources/images/menu/menu01_02.png'); background-size: 100%;">
+                              <br><br><br><br><br><br><br><span class="menu-title">프리미엄 까망 <span class="text-red">모둠</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu03.png'); background-size: 100%;">
-<!--                               <br><br><br><br><br><br><br><span class="menu-title">[이베리코] 목살</span> -->
+                            <li style="background-image: url('/resources/images/menu/menu01_03.png'); background-size: 100%;">
+                              <br><br><br><br><br><br><br><span class="menu-title">버크셔 <span class="text-red">삼겹살</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu04.png'); background-size: 100%;">
-<!--                               <br><br><br><br><br><br><br><span class="menu-title">[이베리코] 황제살</span> -->
+                            <li style="background-image: url('/resources/images/menu/menu01_04.png'); background-size: 100%;">
+                              <br><br><br><br><br><br><br><span class="menu-title">버크셔 <span class="text-red">뼈갈비</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu05.png'); background-size: 100%;">
-<!--                               <br><br><br><br><br><br><br><span class="menu-title">[이베리코] 항정살</span> -->
+                            <li style="background-image: url('/resources/images/menu/menu01_05.png'); background-size: 100%;">
+                              <br><br><br><br><br><br><br><span class="menu-title">제주흑돼지 <span class="text-red">오겹살</span></span>
+                            </li>
+                            <li style="background-image: url('/resources/images/menu/menu01_06.png'); background-size: 100%;">
+                              <br><br><br><br><br><br><br><span class="menu-title">이베리코 <span class="text-red">목살</span></span>
+                            </li>
+                            <li style="background-image: url('/resources/images/menu/menu01_07.png'); background-size: 100%;">
+                              <br><br><br><br><br><br><br><span class="menu-title">이베리코 <span class="text-red">황제살</span></span>
+                            </li>
+                            <li style="background-image: url('/resources/images/menu/menu01_08.png'); background-size: 100%;">
+                              <br><br><br><br><br><br><br><span class="menu-title">이베리코 <span class="text-red">항정살</span></span>
+                            </li>
+                            <li style="background-image: url('/resources/images/menu/menu01_09.png'); background-size: 100%;">
+                              <br><br><br><br><br><br><br><span class="menu-title">이베리코 <span class="text-red">갈비살</span></span>
                             </li>
                           </ul>
                         </div>
@@ -269,20 +283,26 @@
                     <div class="panel-body">
                       <div class="frame" id="menu2SliderArea">
                         <ul class="clearfix" id="menu2SliderItemArea">
-                          <li style="background-image: url('/resources/images/menu/menu06.png'); background-size: 100%;">
-<!--                             <br><br><br><br><br><br><br><span class="menu-title">구이 & 쌈 정식</span> -->
+                          <li style="background-image: url('/resources/images/menu/menu02_01.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title">이베리코 <span class="text-red">돈 스테이크</span></span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu07.png'); background-size: 100%;">
-<!--                             <br><br><br><br><br><br><br><span class="menu-title">김치찌개</span> -->
+                          <li style="background-image: url('/resources/images/menu/menu02_02.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title">흑돼지 <span class="text-red">찹 스테이크</span></span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu08.png'); background-size: 100%;">
-<!--                             <br><br><br><br><br><br><br><span class="menu-title">두루치기</span> -->
+                          <li style="background-image: url('/resources/images/menu/menu02_03.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title">흑돼지 <span class="text-red">삼겹쌈구이</span></span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu09.png'); background-size: 100%;">
-<!--                             <br><br><br><br><br><br><br><span class="menu-title">육회 비빔밥</span> -->
+                          <li style="background-image: url('/resources/images/menu/menu02_04.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title">흑돼지 <span class="text-red">김치찌개</span></span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu10.png'); background-size: 100%;">
-<!--                             <br><br><br><br><br><br><br><span class="menu-title">흑돼지 옛날 불고기</span> -->
+                          <li style="background-image: url('/resources/images/menu/menu02_05.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title">흑돼지 <span class="text-red">두루치기</span></span>
+                          </li>
+                          <li style="background-image: url('/resources/images/menu/menu02_06.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title">흑돼지 <span class="text-red">옛날불고기</span></span>
+                          </li>
+                          <li style="background-image: url('/resources/images/menu/menu02_07.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title">육회비빔밥</span>
                           </li>
                         </ul>
                       </div>
@@ -292,16 +312,41 @@
               </div>
             </div>
             
-            <!-- 후식메뉴 -->
+            <!-- 별미메뉴 -->
             <div class="card">
               <a data-toggle="collapse" data-parent="#menuAccordione" href="#menuCollapse3" aria-expanded="true" aria-controls="menuCollapse3">
                 <div class="card-header card-menu" role="tab" id="menuHeading3">
-                  <h5 class="mb-0">후식메뉴</h5>
+                  <h5 class="mb-0">별미메뉴</h5>
                 </div>
               </a>
               <div id="menuCollapse3" class="collapse show" role="tabpanel" aria-labelledby="menuHeading3">
                 <div class="card-block">
-                  준비중입니다
+                  <div class="panel panel-default panel-menu" id="menu3SliderPanel">
+                    <div class="panel-body">
+                      <div class="frame" id="menu3SliderArea">
+                        <ul class="clearfix" id="menu3SliderItemArea">
+                          <li style="background-image: url('/resources/images/menu/menu03_01.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title text-red">냉동육회</span>
+                          </li>
+                          <li style="background-image: url('/resources/images/menu/menu03_02.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title text-red">김치말이냉국수</span>
+                          </li>
+                          <li style="background-image: url('/resources/images/menu/menu03_03.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title text-red">김치비빔국수</span>
+                          </li>
+                          <li style="background-image: url('/resources/images/menu/menu03_05.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title text-red">옛날도시락</span>
+                          </li>
+                          <li style="background-image: url('/resources/images/menu/menu03_06.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title">버크셔 흑돼지</span>
+                          </li>
+                          <li style="background-image: url('/resources/images/menu/menu03_07.png'); background-size: 100%;">
+                            <br><br><br><br><br><br><br><span class="menu-title">이베리코 흑돼지</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -496,32 +541,32 @@
               <div class="modal-body">
                 <form id="franchiseInquiryForm">
                   <div class="form-group row">
-                    <label for="inquiryName" class="col-2 col-form-label">이름</label>
-                    <div class="col-10">
+                    <label for="inquiryName" class="col-3 col-form-label">이름 <span class="text-red">*</span></label>
+                    <div class="col-9">
                       <input type="text" class="form-control" name="inquiryName" id="inquiryName" placeholder="이름을 입력해주세요.">
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label for="inquiryPhone" class="col-2 col-form-label">연락처</label>
-                    <div class="col-10">
+                    <label for="inquiryPhone" class="col-3 col-form-label">연락처 <span class="text-red">*</span></label>
+                    <div class="col-9">
                       <input type="text" class="form-control" name="inquiryPhone" id="inquiryPhone" placeholder="연락처를 입력해주세요.">
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label for="inquiryEmail" class="col-2 col-form-label">Email</label>
-                    <div class="col-10">
+                    <label for="inquiryEmail" class="col-3 col-form-label">Email</label>
+                    <div class="col-9">
                       <input type="email" class="form-control" name="inquiryEmail" id="inquiryEmail" placeholder="Email을 입력해주세요.">
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label for="inquiryLocation" class="col-2 col-form-label">지역</label>
-                    <div class="col-10">
+                    <label for="inquiryLocation" class="col-3 col-form-label">지역</label>
+                    <div class="col-9">
                       <input type="text" class="form-control" name="inquiryLocation" id="inquiryLocation" placeholder="예) 서울, 인천, 전주, 고양...">
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label for="inquiryContents" class="col-2 col-form-label">내용</label>
-                    <div class="col-10">
+                    <label for="inquiryContents" class="col-3 col-form-label">내용</label>
+                    <div class="col-9">
                       <textarea class="form-control" name="inquiryContents" id="inquiryContents" rows="3"></textarea>
                     </div>
                   </div>
@@ -555,15 +600,15 @@
     </div>
     
     <!-- Bootstrap core JavaScript -->
-    <script src="/resources/vendor/jquery/jquery.min.js"></script>
-    <script src="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/resources/vendor/jquery/jquery.min.js?rev=<%=revision%>"></script>
+    <script src="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js?rev=<%=revision%>"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="/resources/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="/resources/vendor/sly/js/sly.min.js"></script>
+    <script src="/resources/vendor/jquery-easing/jquery.easing.min.js?rev=<%=revision%>"></script>
+    <script src="/resources/vendor/sly/js/sly.min.js?rev=<%=revision%>"></script>
 
     <!-- Custom scripts for this page -->
-    <script src="/resources/js/main.js"></script>
+    <script src="/resources/js/main.js?rev=<%=revision%>"></script>
     
     <script type="text/javascript">
     
@@ -571,6 +616,7 @@
       $(document).ready(function() {
         slyComponent.create('#menu1SliderArea');
         slyComponent.create('#menu2SliderArea');
+        slyComponent.create('#menu3SliderArea');
         
         setMap();
         
