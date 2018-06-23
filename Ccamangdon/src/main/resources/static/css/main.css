@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 @CHARSET "UTF-8";
-@font-face { font-family: 'Bmjua'; src: url(/resources/fonts/BMJUA_ttf.ttf) format('truetype'); }
-@font-face { font-family: 'Bmyeonsung'; src: url(/resources/fonts/BMYEONSUNG_ttf.ttf) format('truetype'); }
+@font-face { font-family: 'Bmjua'; src: url(/fonts/BMJUA_ttf.ttf) format('truetype'); }
+@font-face { font-family: 'Bmyeonsung'; src: url(/fonts/BMYEONSUNG_ttf.ttf) format('truetype'); }
 
 body {
   overflow-x: hidden;

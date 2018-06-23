@@ -7,17 +7,25 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="ccamangdon">
+<meta name="description" content="밑에는 이베리코흑돼지, 버크셔흑돼지, 까망돈프랜차이즈, 고깃집창업, 소형창업">
 <meta name="author" content="ccamangdon">
 
-<title>까망돈</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="프리미엄 흑돼지 전문점 까망돈">
+<meta property="og:description" content="밑에는 이베리코흑돼지, 버크셔흑돼지, 까망돈프랜차이즈, 고깃집창업, 소형창업">
+<meta property="og:image" content="http://www.ccamangdon.com/images/logos/logo01.png">
+<meta property="og:url" content="http://www.ccamangdon.com">
 
-<link rel="shortcut icon" href="/resources/images/favicon.png?rev=<%=revision%>">
+<meta name="naver-site-verification" content="a7ccf3ae776151e5945f76b1fc84865db7317c7c"/>
 
-<link href="/resources/vendor/bootstrap/css/bootstrap.min.css?rev=<%=revision%>" rel="stylesheet">
-<link href="/resources/vendor/font-awesome/css/font-awesome.min.css?rev=<%=revision%>" rel="stylesheet" type="text/css">
-<link href="/resources/css/main.css?rev=<%=revision%>" rel="stylesheet">
-<link href="/resources/vendor/sly/css/sly-main.css?rev=<%=revision%>" rel="stylesheet">
+<title>프리미엄 흑돼지 전문점 까망돈</title>
+
+<link rel="shortcut icon" href="/images/favicon.png?rev=<%=revision%>">
+
+<link href="/vendor/bootstrap/css/bootstrap.min.css?rev=<%=revision%>" rel="stylesheet">
+<link href="/vendor/font-awesome/css/font-awesome.min.css?rev=<%=revision%>" rel="stylesheet" type="text/css">
+<link href="/css/main.css?rev=<%=revision%>" rel="stylesheet">
+<link href="/vendor/sly/css/sly-main.css?rev=<%=revision%>" rel="stylesheet">
 
 </head>
 <body>
@@ -25,7 +33,7 @@
     <!-- navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#top"><img class="navbar-logo" alt="까망돈" src="/resources/images/logos/sub-logo.png"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#top"><img class="navbar-logo" alt="까망돈" src="/images/logos/sub-logo.png"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
         </button>
@@ -49,16 +57,6 @@
     </nav>
 
     <!-- header -->
-<!--     <header class="masthead" id="top"> -->
-<!--       <div class="container"> -->
-<!--         <div class="intro-text"> -->
-<!--           <div class="intro-heading text-uppercase">고기로 표현할 수 있는<br><span class="color-red">가장 완벽한 맛</span>을 기대하세요!</div> -->
-<!--           <div>정직하고 신선한 재료만을 사용하며<br>고객님을 위해 늘 최선을 다하는 서비스를 제공하고있습니다.</div> -->
-<!--         </div> -->
-<!--       </div> -->
-<!--     </header> -->
-
-<!--     <div class="container container-full"> -->
     <div id="top" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ul class="carousel-indicators">
@@ -70,7 +68,7 @@
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/resources/images/slider/slider01.png" alt="" width="100%">
+          <img src="/images/slider/slider01.png" alt="" width="100%">
           <div class="carousel-caption carousel-caption1 text-align-right justify-content-center">
             <p class="text-shadow font-size-17">
                        최선은 <span class="text-red font-size-20 font-bold text-border-white">NO!</span><br/>
@@ -80,7 +78,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="/resources/images/slider/slider04.png" alt="" width="100%">
+          <img src="/images/slider/slider04.png" alt="" width="100%">
           <div class="carousel-caption carousel-caption2">
             <p class="text-shadow text-align-left font-size-17">
               <span class="text-red font-size-30 font-bold text-border-white">숯불화로</span>와 <span class="text-black text-border-white font-size-30 font-bold">흑돼지</span>의<br/>
@@ -89,7 +87,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="/resources/images/slider/slider03.png" alt="" width="100%">
+          <img src="/images/slider/slider03.png" alt="" width="100%">
           <div class="carousel-caption carousel-caption3">
             <p class="text-shadow">
               <span class="font-size-30 font-bold">젊음!</span><br/>
@@ -121,7 +119,7 @@
         <div class="row">
           <div class="col-md-6">
             <div style="padding: 10 0 15 0">
-              <img src="/resources/images/logos/logo01.png" width="100%">
+              <img src="/images/logos/logo01.png" width="100%">
             </div>
           </div>
           <div class="col-md-6">
@@ -154,7 +152,7 @@
               까망돈(豚)은 검정의 다른 말인 까망과 한자 돈을 결합한 네이밍으로 흑돼지만을 전문으로 서비스하는 브랜드를 지향하고 있습니다.<br/>
               세상에서 가장 맛 있는 돼지고기를 선별해서 판매하는 고깃집이 되도록 노력하고 고객분들께 그 감동을 선사하겠습니다.
             </p>
-            <img src="/resources/images/logos/logo02.png" width="100%">
+            <img src="/images/logos/logo02.png" width="100%">
             <br/><br/>
             <p class="text-muted font-default">
               까망돈 로고의 돈은 육고기를 형상화 하는 그림에 한자를 덧붙인 형태의 이미지로<br/>
@@ -186,24 +184,24 @@
             </p>
           </div>
           <div class="col">
-            <img class="interior-img" src="/resources/images/interior/interior01.jpg" width="100%" alt="store image">
+            <img class="interior-img" src="/images/interior/interior01.jpg" width="100%" alt="store image">
           </div>
           <div class="col">
-            <img class="interior-img" src="/resources/images/interior/interior02.jpg" width="100%" alt="store image">
+            <img class="interior-img" src="/images/interior/interior02.jpg" width="100%" alt="store image">
           </div>
           <div class="col">
-            <img class="interior-img" src="/resources/images/interior/interior03.jpg" width="100%" alt="store image">
+            <img class="interior-img" src="/images/interior/interior03.jpg" width="100%" alt="store image">
           </div>
         </div>
         <div class="row" style="padding-top: 20px;">
           <div class="col">
-            <img class="interior-img" src="/resources/images/interior/interior04.jpg" width="100%" alt="store image">
+            <img class="interior-img" src="/images/interior/interior04.jpg" width="100%" alt="store image">
           </div>
           <div class="col">
-            <img class="interior-img" src="/resources/images/interior/interior05.jpg" width="100%" alt="store image">
+            <img class="interior-img" src="/images/interior/interior05.jpg" width="100%" alt="store image">
           </div>
           <div class="col">
-            <img class="interior-img" src="/resources/images/interior/interior06.jpg" width="100%" alt="store image">
+            <img class="interior-img" src="/images/interior/interior06.jpg" width="100%" alt="store image">
           </div>
         </div>
         
@@ -236,31 +234,31 @@
                       <div class="panel-body">
                         <div class="frame" id="menu1SliderArea">
                           <ul class="clearfix" id="menu1SliderItemArea">
-                            <li style="background-image: url('/resources/images/menu/menu01_01.png'); background-size: 100%;">
+                            <li style="background-image: url('/images/menu/menu01_01.png'); background-size: 100%;">
                               <br><br><br><br><br><br><br><span class="menu-title">까망 <span class="text-red">모둠</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu01_02.png'); background-size: 100%;">
+                            <li style="background-image: url('/images/menu/menu01_02.png'); background-size: 100%;">
                               <br><br><br><br><br><br><br><span class="menu-title">프리미엄 까망 <span class="text-red">모둠</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu01_03.png'); background-size: 100%;">
+                            <li style="background-image: url('/images/menu/menu01_03.png'); background-size: 100%;">
                               <br><br><br><br><br><br><br><span class="menu-title">버크셔 <span class="text-red">삼겹살</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu01_04.png'); background-size: 100%;">
+                            <li style="background-image: url('/images/menu/menu01_04.png'); background-size: 100%;">
                               <br><br><br><br><br><br><br><span class="menu-title">버크셔 <span class="text-red">뼈갈비</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu01_05.png'); background-size: 100%;">
+                            <li style="background-image: url('/images/menu/menu01_05.png'); background-size: 100%;">
                               <br><br><br><br><br><br><br><span class="menu-title">제주흑돼지 <span class="text-red">오겹살</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu01_06.png'); background-size: 100%;">
+                            <li style="background-image: url('/images/menu/menu01_06.png'); background-size: 100%;">
                               <br><br><br><br><br><br><br><span class="menu-title">이베리코 <span class="text-red">목살</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu01_07.png'); background-size: 100%;">
+                            <li style="background-image: url('/images/menu/menu01_07.png'); background-size: 100%;">
                               <br><br><br><br><br><br><br><span class="menu-title">이베리코 <span class="text-red">황제살</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu01_08.png'); background-size: 100%;">
+                            <li style="background-image: url('/images/menu/menu01_08.png'); background-size: 100%;">
                               <br><br><br><br><br><br><br><span class="menu-title">이베리코 <span class="text-red">항정살</span></span>
                             </li>
-                            <li style="background-image: url('/resources/images/menu/menu01_09.png'); background-size: 100%;">
+                            <li style="background-image: url('/images/menu/menu01_09.png'); background-size: 100%;">
                               <br><br><br><br><br><br><br><span class="menu-title">이베리코 <span class="text-red">갈비살</span></span>
                             </li>
                           </ul>
@@ -285,25 +283,25 @@
                     <div class="panel-body">
                       <div class="frame" id="menu2SliderArea">
                         <ul class="clearfix" id="menu2SliderItemArea">
-                          <li style="background-image: url('/resources/images/menu/menu02_01.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu02_01.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title">이베리코 <span class="text-red">돈 스테이크</span></span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu02_02.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu02_02.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title">흑돼지 <span class="text-red">찹 스테이크</span></span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu02_03.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu02_03.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title">흑돼지 <span class="text-red">삼겹쌈구이</span></span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu02_04.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu02_04.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title">흑돼지 <span class="text-red">김치찌개</span></span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu02_05.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu02_05.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title">흑돼지 <span class="text-red">두루치기</span></span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu02_06.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu02_06.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title">흑돼지 <span class="text-red">옛날불고기</span></span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu02_07.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu02_07.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title">육회비빔밥</span>
                           </li>
                         </ul>
@@ -327,22 +325,22 @@
                     <div class="panel-body">
                       <div class="frame" id="menu3SliderArea">
                         <ul class="clearfix" id="menu3SliderItemArea">
-                          <li style="background-image: url('/resources/images/menu/menu03_01.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu03_01.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title">냉동육회</span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu03_02.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu03_02.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title">김치말이냉국수</span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu03_03.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu03_03.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title">김치비빔국수</span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu03_05.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu03_05.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title">옛날도시락</span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu03_06.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu03_06.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title"><span class="text-red">버크셔</span> 흑돼지</span>
                           </li>
-                          <li style="background-image: url('/resources/images/menu/menu03_07.png'); background-size: 100%;">
+                          <li style="background-image: url('/images/menu/menu03_07.png'); background-size: 100%;">
                             <br><br><br><br><br><br><br><span class="menu-title"><span class="text-red">이베리코</span> 흑돼지</span>
                           </li>
                         </ul>
@@ -397,21 +395,21 @@
         </div>
         <div class="row">
           <div class="col">
-            <img src="/resources/images/store/store01_01.jpg" width="100%" alt="store image">
+            <img src="/images/store/store01_01.jpg" width="100%" alt="store image">
           </div>
           <div class="col">
-            <img src="/resources/images/store/store01_02.jpg" width="100%" alt="store image">
+            <img src="/images/store/store01_02.jpg" width="100%" alt="store image">
           </div>
           <div class="col">
-            <img src="/resources/images/store/store01_03.jpg" width="100%" alt="store image">
+            <img src="/images/store/store01_03.jpg" width="100%" alt="store image">
           </div>
         </div>
         <div class="row" style="padding-top: 20px;">
           <div class="col">
-            <img src="/resources/images/store/store01_04.jpg" width="100%" alt="store image">
+            <img src="/images/store/store01_04.jpg" width="100%" alt="store image">
           </div>
           <div class="col">
-            <img src="/resources/images/store/store01_05.jpg" width="100%" alt="store image">
+            <img src="/images/store/store01_05.jpg" width="100%" alt="store image">
           </div>
         </div>
       </div>
@@ -437,7 +435,7 @@
                 </a>
                 <div id="collapse1" class="collapse show" role="tabpanel" aria-labelledby="heading1">
                   <div class="card-block">
-                    <img src="/resources/images/franchising/franchising01.png" width="100%">
+                    <img src="/images/franchising/franchising01.png" width="100%">
                   </div>
                 </div>
               </div>
@@ -450,7 +448,7 @@
                 </a>
                 <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2">
                   <div class="card-block">
-                    <img src="/resources/images/franchising/franchising02.png" width="100%">
+                    <img src="/images/franchising/franchising02.png" width="100%">
                   </div>
                 </div>
               </div>
@@ -463,7 +461,7 @@
                 </a>
                 <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3">
                   <div class="card-block">
-                    <img src="/resources/images/franchising/franchising03.png" width="100%">
+                    <img src="/images/franchising/franchising03.png" width="100%">
                   </div>
                 </div>
               </div>
@@ -476,7 +474,7 @@
                 </a>
                 <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4">
                   <div class="card-block">
-                    <img src="/resources/images/franchising/franchising04.png" width="100%">
+                    <img src="/images/franchising/franchising04.png" width="100%">
                   </div>
                 </div>
               </div>
@@ -489,7 +487,7 @@
                 </a>
                 <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5">
                   <div class="card-block">
-                    <img src="/resources/images/franchising/franchising05.png" width="100%">
+                    <img src="/images/franchising/franchising05.png" width="100%">
                   </div>
                 </div>
               </div>
@@ -502,7 +500,7 @@
                 </a>
                 <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6">
                   <div class="card-block">
-                    <img src="/resources/images/franchising/franchising06.png" width="100%">
+                    <img src="/images/franchising/franchising06.png" width="100%">
                   </div>
                 </div>
               </div>
@@ -521,7 +519,7 @@
           <div class="col-md-12">
             <span class="copyright">
               경기도 고양시 덕양구 충경로 38 / 031-970-1157<br>
-              <img alt="까망돈" src="/resources/images/logos/sub-logo.png" width="100" height="33"> Copyright &copy; CCAMANGDON
+              <img alt="까망돈" src="/images/logos/sub-logo.png" width="100" height="33"> Copyright &copy; CCAMANGDON
             </span>
           </div>
         </div>
@@ -602,15 +600,15 @@
     </div>
     
     <!-- Bootstrap core JavaScript -->
-    <script src="/resources/vendor/jquery/jquery.min.js?rev=<%=revision%>"></script>
-    <script src="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js?rev=<%=revision%>"></script>
+    <script src="/vendor/jquery/jquery.min.js?rev=<%=revision%>"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js?rev=<%=revision%>"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="/resources/vendor/jquery-easing/jquery.easing.min.js?rev=<%=revision%>"></script>
-    <script src="/resources/vendor/sly/js/sly.min.js?rev=<%=revision%>"></script>
+    <script src="/vendor/jquery-easing/jquery.easing.min.js?rev=<%=revision%>"></script>
+    <script src="/vendor/sly/js/sly.min.js?rev=<%=revision%>"></script>
 
     <!-- Custom scripts for this page -->
-    <script src="/resources/js/main.js?rev=<%=revision%>"></script>
+    <script src="/js/main.js?rev=<%=revision%>"></script>
     
     <script type="text/javascript">
     
