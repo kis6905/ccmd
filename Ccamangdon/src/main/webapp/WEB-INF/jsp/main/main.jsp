@@ -3,7 +3,7 @@
 <html>
 <head>
 
-<% String revision = "20180616_01"; %>
+<% String revision = "20180623_01"; %>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,6 +11,8 @@
 <meta name="author" content="ccamangdon">
 
 <title>까망돈</title>
+
+<link rel="shortcut icon" href="/resources/images/favicon.png?rev=<%=revision%>">
 
 <link href="/resources/vendor/bootstrap/css/bootstrap.min.css?rev=<%=revision%>" rel="stylesheet">
 <link href="/resources/vendor/font-awesome/css/font-awesome.min.css?rev=<%=revision%>" rel="stylesheet" type="text/css">
@@ -326,22 +328,22 @@
                       <div class="frame" id="menu3SliderArea">
                         <ul class="clearfix" id="menu3SliderItemArea">
                           <li style="background-image: url('/resources/images/menu/menu03_01.png'); background-size: 100%;">
-                            <br><br><br><br><br><br><br><span class="menu-title text-red">냉동육회</span>
+                            <br><br><br><br><br><br><br><span class="menu-title">냉동육회</span>
                           </li>
                           <li style="background-image: url('/resources/images/menu/menu03_02.png'); background-size: 100%;">
-                            <br><br><br><br><br><br><br><span class="menu-title text-red">김치말이냉국수</span>
+                            <br><br><br><br><br><br><br><span class="menu-title">김치말이냉국수</span>
                           </li>
                           <li style="background-image: url('/resources/images/menu/menu03_03.png'); background-size: 100%;">
-                            <br><br><br><br><br><br><br><span class="menu-title text-red">김치비빔국수</span>
+                            <br><br><br><br><br><br><br><span class="menu-title">김치비빔국수</span>
                           </li>
                           <li style="background-image: url('/resources/images/menu/menu03_05.png'); background-size: 100%;">
-                            <br><br><br><br><br><br><br><span class="menu-title text-red">옛날도시락</span>
+                            <br><br><br><br><br><br><br><span class="menu-title">옛날도시락</span>
                           </li>
                           <li style="background-image: url('/resources/images/menu/menu03_06.png'); background-size: 100%;">
-                            <br><br><br><br><br><br><br><span class="menu-title">버크셔 흑돼지</span>
+                            <br><br><br><br><br><br><br><span class="menu-title"><span class="text-red">버크셔</span> 흑돼지</span>
                           </li>
                           <li style="background-image: url('/resources/images/menu/menu03_07.png'); background-size: 100%;">
-                            <br><br><br><br><br><br><br><span class="menu-title">이베리코 흑돼지</span>
+                            <br><br><br><br><br><br><br><span class="menu-title"><span class="text-red">이베리코</span> 흑돼지</span>
                           </li>
                         </ul>
                       </div>
